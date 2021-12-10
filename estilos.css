@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(214, 214, 214);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Courier, monospace;
+    letter-spacing: normal;
+}
+body { 
+    text-align: center;
+}
+/*HEADER*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(5, 5, 104);
+    position: fixed;
+    z-index: 10;
+}
+.paginasheader {
+    float: left;
+    line-height: 100px;
+}
+.paginasheader a {
+    font-size: 30px;
+    text-decoration: gold;
+    letter-spacing: 6px;
+    margin: 0 10px;
+}
+.paginasheader a:hover {
+    color: rgb(117, 28, 180);
+}
+
+/*MENU NAVEGACION*/
+.enlaces {
+    position: fixed;
+    width: 90px;
+    height: 340px;
+    top: 250px;
+    background-color: rgb(246, 246, 246);
+    z-index: 3;
+    right: 50px;
+}
+.enlaces img {
+    width: 50px;
+    height: 50px;
+    margin: 40px auto;
+    padding: 5px;
+}
+.enlaces li {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    list-style: none;
+}
+.enlaces img:hover {
+    border: 2px solid cadetblue;
+    border-radius: 30%;
+    transform: scale(1.2, 1.2);
+    transition: 1s;
+}
+
+/*CONTENIDO*/
+article {
+    background-color: rgb(80, 80, 80);
+    z-index: 0;
+    width: 100%;
+    height: 2000px;
+    top: 100px;
+    position: absolute;
+}
+.columnas {
+    columns: 3;
+}
+.columnas li {
+    list-style-type: none;
+}
+.inicio p {
+    font-size: 32px;
+}
+.inicio img {
+    height: 250px;
+    width: 250px;
+    padding-top: 30px;
+}
+.inicio h2 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 60px;
+}
+.table {
+    text-align: left;
+    justify-content: center;
+    margin-top: 2%;
+    margin-right: 30%;
+    word-spacing: 5px;
+    margin-left: 500px;
+}
+.nombrecv {
+    font-size: 32px;
+    line-height: 30px;
+}
+table img {
+    border-radius: 150px;
+}
+.videodelproyecto {
+    font-size: 25px;
+}
+.formulario label {
+    float: right;
+    text-align: left;
+    width: 50%;
+    padding: 50px 200px 15px 200px;
+    font-size: 32px;
+}
+.formulario input {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+.formulario h2 {
+    font-size: 75px;
+}
+/*PIE*/
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(8, 93, 149);
+    bottom: 0px;
+    position: fixed;
+}
+footer p {
+    font-size: 30px;
+    display: inline;
+    line-height: 100px;
+}
+.nombrepiedepagina {
+    float: left;
+    margin-left: 10px;
+}
+.fechapiedepagina {
+    float: right;
+    margin-right: 10px;
+}
+.Raul {
+    border: 3px solid brown;
+}
+.letrasformulario {
+    text-orientation: initial;
+    text-decoration: lightblue;
+    text-shadow: lightgreen;
+    text-align: center;
+    text-anchor: middle;
+    text-decoration-line: underline;
+    text-orientation: sideways;
+    color: lightseagreen;
+}
+.enlaces2 a {
+    margin-right: auto;
+    color: rgb(185, 185, 185);
+}
